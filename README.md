@@ -1,4 +1,4 @@
-# vue-cli3
+# vue-cli3-spa
 
 ## Project setup
 ```
@@ -7,7 +7,7 @@ yarn install
 
 ### Compiles and hot-reloads for development
 ```
-yarn run serve
+yarn run dev
 ```
 
 ### Compiles and minifies for production

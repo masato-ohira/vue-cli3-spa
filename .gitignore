@@ -1,21 +1,57 @@
+# mySetting
+**/_sample/img
+_old
+_bk
+*.bak
+*.log
+._*
+*.map
+.ssh
+
+# Git
+.gitconfig
+
+# Mac OS
 .DS_Store
+.AppleDouble
+.AppleDesktop
+.AppleDB
+
+# Windows
+Thumbs.db
+
+# Dreamweaver
+_compareTemp
+_notes
+*.mno
+
+# Compass
+compass_start.bat
+.sass-cache
+
+# sublime
+sftp-config.json
+.sublime-grunt.cache
+.sublime-gulp.cache
+
+# node.js
 node_modules
-/dist
+npm-debug.log
+.grunt
+sftpCache.json
 
-# local env files
-.env.local
-.env.*.local
+# ruby
+.bundle
+vendor
 
-# Log files
-npm-debug.log*
-yarn-debug.log*
-yarn-error.log*
+# server
+.mysql_history
+.htaccess
+.bash_history
+.bash_logout
+.bash_profile
+.bashrc
+.vim
+.viminfo
+logs
 
-# Editor directories and files
-.idea
-.vscode
-*.suo
-*.ntvs*
-*.njsproj
-*.sln
-*.sw*
