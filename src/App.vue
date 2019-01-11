@@ -6,6 +6,7 @@
 </template>
 
 <script>
+import store from '@/store'
 import VueMarkdown from 'vue-markdown'
 
 export default {
@@ -15,6 +16,9 @@ export default {
       md: `# Title`
     }
   },
+  mounted() {
+
+  }
 }
 </script>
 
