@@ -26,5 +26,14 @@ module.exports = {
         data: `@import "@/assets/sass/core.sass";`
       }
     }
+  },
+  devServer: {
+    proxy: {
+      '^/api': {
+        target: 'https://noidea-xyz.herokuapp.com',
+        ws: true,
+        changeOrigin: true
+      },
+    }
   }
 }
